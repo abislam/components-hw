@@ -1,17 +1,16 @@
 import React from 'react';
 
 import NavBar from "./components/NavBar";
-import box1 from "./components/box1";
+import Box1 from "./components/Box1";
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <box1/>
-
-
+      <Box1/>
 
     </div>
+
   );
 }
 
