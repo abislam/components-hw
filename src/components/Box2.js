@@ -10,8 +10,8 @@ function Box2(props){
     return(
         <div className="box1">
             <div>Name: {props.name}</div>
-            <div onClick={()=> setAge(age+1)}>Age: {age}</div>
-            <div>Favorite Color: {props.color}</div>
+            <div onClick={()=> setAge(age+1)}>I am {age} years old</div>
+            <div>The coolest color is {props.color}</div>
         </div>
     );
 
