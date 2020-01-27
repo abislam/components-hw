@@ -1,0 +1,20 @@
+.ulNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liNav {
+    display: inline;
+    color: white;
+    padding: 20px;
+}
+
+
+.contentBox{
+    box-sizing: content-box;
+    width: 100%;
+    padding: 10px;
+    background: #444;
+    text-indent: 20px;
+}
