@@ -8,9 +8,9 @@ function Box2(props){
     //const color= React.useState(props.color);
 
     return(
-        <div className="box1">
+        <div className="box1" onClick={()=> setAge(age+1)}>
             <div>Name: {props.name}</div>
-            <div onClick={()=> setAge(age+1)}>I am {age} years old</div>
+            <div>I am {age} years old</div>
             <div>The coolest color is {props.color}</div>
         </div>
     );
